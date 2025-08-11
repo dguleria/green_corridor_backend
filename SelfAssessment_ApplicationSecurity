@@ -1,0 +1,16 @@
+Green Corridor S.E.C.U.R.E. 6 — The AppSec Baseline Self Assessment
+(Score each pillar 0–5. 0 = non-existent, 5 = fully implemented & measured.)
+
+Pillar	What It Covers	0–5 Example Criteria	Gamified Feel
+S — Secure Coding Practices	Secure coding standards, OWASP Top 10 coverage, linting, code review for security.	0 = no coding standard; 5 = codified standards, mandatory security code reviews, automated linting for security flaws.	Skill Tree: Code Mastery
+E — Early Threat Modelling	STRIDE/PASTA in design phase, risk-based mitigation planning.	0 = no TM; 5 = TM in every major feature design, tracked in backlog.	Explorer: Map the Dungeon
+C — Continuous Testing	SAST, DAST, SCA in CI/CD; automated pipeline gating.	0 = no automation; 5 = integrated scans with zero criticals allowed to pass.	Combo Meter: Keep the Streak
+U — User & Identity Security	Strong auth (MFA, OAuth2/OIDC), least privilege, session controls.	0 = hardcoded creds; 5 = MFA, short-lived tokens, role-based auth validated server-side.	Shield Level: Player Identity
+R — Resilience & Recovery	Logging, monitoring, alerting, rollback plans, secure error handling.	0 = no logging; 5 = centralized immutable logs, monitored 24/7, tested incident recovery.	HP Bar: Damage Control
+E — Education & Awareness	DevSecOps training, secure coding workshops, phishing sims.	0 = no training; 5 = mandatory annual refreshers + security champions in every squad.	XP Gain: Level Up Security
+
+
+
+
+Total = 18/30 → Level: "Apprentice Defender"
+(20–25 = “Guardian”; 26–30 = “Legendary Defender”)
